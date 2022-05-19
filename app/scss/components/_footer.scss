@@ -1,0 +1,58 @@
+.footer {
+  padding: 35px 0 55px;
+  background-color: #01071B;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 130px;
+  }
+
+  &__item {
+    color: $default;
+    transition: color .3s ease-in;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  &__phone {
+    transition: color .3s ease-in;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  &__social-text {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid $accent;
+    background-color: #43464E;
+    cursor: pointer;
+
+    &:hover {
+      path {
+        fill: $accent;
+      }
+    }
+  }
+}

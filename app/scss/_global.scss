@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.2;
+  @extend %FiraSans-400;
+  color: $default;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

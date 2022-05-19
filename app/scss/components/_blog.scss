@@ -1,0 +1,45 @@
+.blog {
+  padding: 60px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #000;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 1.3;
+    margin-bottom: 35px;    
+  }
+
+  &__text {
+    max-width: 540px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    @extend %FiraSans-400;
+  }
+
+  &__link {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: border-color .3s ease-in;
+
+    &:hover {
+      border-color: $accent;
+    }
+  }
+
+  &__image,
+  &__img {
+    max-width: 630px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__img {
+    object-fit: contain;
+  }
+}

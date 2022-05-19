@@ -1,0 +1,25 @@
+.header {
+  padding: 40px 0;
+  background-color: #01071B;
+
+  &__inner,
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__nav {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  &__phone {
+    border-bottom: 2px solid transparent;
+    transition: border-color .3s ease-in;
+
+    &:hover {
+      border-color: $accent;
+    }
+  }
+}

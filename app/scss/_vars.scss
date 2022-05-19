@@ -1,0 +1,48 @@
+$default: #fff;
+$accent: #1F49DB;
+$main: #000;
+
+
+%FiraSans-400 {
+  font-family: 'FiraSans', sans-serif;
+  font-weight: 400;
+}
+
+%FiraSans-500 {
+  font-family: 'FiraSans', sans-serif;
+  font-weight: 500;
+}
+
+%Montserrat-600 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+%Montserrat-700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+%OpenSans-400 {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+}
+
+%OpenSans-500 {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 500;
+}
+
+
+%link {
+  display: inline-block;
+  padding: 14px 50px;
+  background-color: $accent;
+  border-radius: 5px;
+  transition: box-shadow .3s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 30px $accent;
+  }
+}
